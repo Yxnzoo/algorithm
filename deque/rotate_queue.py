@@ -1,4 +1,4 @@
-#  1021
+#  1021 회전하는 큐
 from collections import deque
 from sys import stdin
 
