@@ -1,7 +1,7 @@
 from collections import deque
 
 
-# BFS 메소드 정의 (너비 우선  탐색) 가까운 노드부터 탐색 Queue
+# bfs 메소드 정의 (너비 우선  탐색) 가까운 노드부터 탐색 Queue
 def bfs(graph, start, visited):
     # Queue 구현을 위해 deque 라이브러리 사용
     queue = deque([start])
@@ -35,5 +35,5 @@ graph = [
 # 각 노드가 방문된 정보를 표현(1차원 리스트)
 visited = [False] * 9
 
-#  정의된 DFS 함수 호출
+#  정의된 bfs 함수 호출
 bfs(graph, 1, visited)
